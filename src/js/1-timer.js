@@ -54,6 +54,8 @@ const options = {
     secondsEl.textContent= addLeadingZero(seconds);
   }
   
+
+  let timerId= null;
   function startTimer() {
     dateTimePicker.disabled= true;
     startButton.disabled= true;
